@@ -59,8 +59,8 @@ class MainApp(tk.Tk, LoraHat):
         self.heading_font = font.Font(family="Helvetica", size=12)
         self.LARGE_FONT = ("Verdana", 12)
 
-        img = tk.PhotoImage(file=path + '/Images/settings.png')
-        logo = tk.PhotoImage(file=path + '/Images/sblogo.png')
+        img = tk.PhotoImage(file=path + '/images/settings.png')
+        logo = tk.PhotoImage(file=path + '/images/sblogo.png')
 
         self.top_frame_color = "dimgray"
         self.left_frame_color = "gray21"
